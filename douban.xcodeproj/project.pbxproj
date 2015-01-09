@@ -1,0 +1,476 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A0057BCF1A5AD3140038ACB5 /* channelButton.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A0057BCC1A5AD3140038ACB5 /* channelButton.jpg */; };
+		A0057BD01A5AD3140038ACB5 /* detail.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A0057BCD1A5AD3140038ACB5 /* detail.jpg */; };
+		A0057BD11A5AD3140038ACB5 /* iv.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A0057BCE1A5AD3140038ACB5 /* iv.jpg */; };
+		A019ED621A59567C00485084 /* douban3.png in Resources */ = {isa = PBXBuildFile; fileRef = A019ED5F1A59567C00485084 /* douban3.png */; };
+		A019ED631A59567C00485084 /* douban1.JPEG in Resources */ = {isa = PBXBuildFile; fileRef = A019ED601A59567C00485084 /* douban1.JPEG */; };
+		A019ED641A59567C00485084 /* douban2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A019ED611A59567C00485084 /* douban2.jpg */; };
+		A019ED661A5957A600485084 /* ChannelController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A019ED651A5957A600485084 /* ChannelController.swift */; };
+		A02A61E21A57871700CEBCD1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A02A61E11A57871700CEBCD1 /* AppDelegate.swift */; };
+		A02A61E41A57871700CEBCD1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A02A61E31A57871700CEBCD1 /* ViewController.swift */; };
+		A02A61E71A57871700CEBCD1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A02A61E51A57871700CEBCD1 /* Main.storyboard */; };
+		A02A61E91A57871700CEBCD1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A02A61E81A57871700CEBCD1 /* Images.xcassets */; };
+		A02A61EC1A57871700CEBCD1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A02A61EA1A57871700CEBCD1 /* LaunchScreen.xib */; };
+		A02A61F81A57871800CEBCD1 /* doubanTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A02A61F71A57871700CEBCD1 /* doubanTests.swift */; };
+		A042840F1A5D7A1C00D12226 /* channeicon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A042840E1A5D7A1C00D12226 /* channeicon.jpg */; };
+		A06819241A5EBCE8000E0DE6 /* channelicon.png in Resources */ = {isa = PBXBuildFile; fileRef = A06819231A5EBCE8000E0DE6 /* channelicon.png */; };
+		A06819261A5EBEDF000E0DE6 /* detail.png in Resources */ = {isa = PBXBuildFile; fileRef = A06819251A5EBEDF000E0DE6 /* detail.png */; };
+		A068192A1A5ED035000E0DE6 /* play2.png in Resources */ = {isa = PBXBuildFile; fileRef = A06819291A5ED035000E0DE6 /* play2.png */; };
+		A068192C1A5ED06F000E0DE6 /* play3.png in Resources */ = {isa = PBXBuildFile; fileRef = A068192B1A5ED06F000E0DE6 /* play3.png */; };
+		A0EE942A1A59844900ACE50F /* HttpController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0EE94291A59844900ACE50F /* HttpController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A02A61F21A57871700CEBCD1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A02A61D41A57871700CEBCD1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A02A61DB1A57871700CEBCD1;
+			remoteInfo = douban;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A0057BCC1A5AD3140038ACB5 /* channelButton.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = channelButton.jpg; path = ../../../picture/channelButton.jpg; sourceTree = "<group>"; };
+		A0057BCD1A5AD3140038ACB5 /* detail.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = detail.jpg; path = ../../../picture/detail.jpg; sourceTree = "<group>"; };
+		A0057BCE1A5AD3140038ACB5 /* iv.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = iv.jpg; path = ../../../picture/iv.jpg; sourceTree = "<group>"; };
+		A019ED5F1A59567C00485084 /* douban3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = douban3.png; path = ../../../picture/douban3.png; sourceTree = "<group>"; };
+		A019ED601A59567C00485084 /* douban1.JPEG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = douban1.JPEG; path = ../../../picture/douban1.JPEG; sourceTree = "<group>"; };
+		A019ED611A59567C00485084 /* douban2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = douban2.jpg; path = ../../../picture/douban2.jpg; sourceTree = "<group>"; };
+		A019ED651A5957A600485084 /* ChannelController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ChannelController.swift; path = ../ChannelController.swift; sourceTree = "<group>"; };
+		A02A61DC1A57871700CEBCD1 /* douban.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = douban.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A02A61E01A57871700CEBCD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A02A61E11A57871700CEBCD1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A02A61E31A57871700CEBCD1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A02A61E61A57871700CEBCD1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A02A61E81A57871700CEBCD1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A02A61EB1A57871700CEBCD1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		A02A61F11A57871700CEBCD1 /* doubanTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = doubanTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A02A61F61A57871700CEBCD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A02A61F71A57871700CEBCD1 /* doubanTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = doubanTests.swift; sourceTree = "<group>"; };
+		A042840E1A5D7A1C00D12226 /* channeicon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = channeicon.jpg; sourceTree = "<group>"; };
+		A06819231A5EBCE8000E0DE6 /* channelicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = channelicon.png; sourceTree = "<group>"; };
+		A06819251A5EBEDF000E0DE6 /* detail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = detail.png; sourceTree = "<group>"; };
+		A06819291A5ED035000E0DE6 /* play2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = play2.png; sourceTree = "<group>"; };
+		A068192B1A5ED06F000E0DE6 /* play3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = play3.png; sourceTree = "<group>"; };
+		A0EE94291A59844900ACE50F /* HttpController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HttpController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A02A61D91A57871700CEBCD1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A02A61EE1A57871700CEBCD1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A02A61D31A57871700CEBCD1 = {
+			isa = PBXGroup;
+			children = (
+				A02A61DE1A57871700CEBCD1 /* douban */,
+				A02A61F41A57871700CEBCD1 /* doubanTests */,
+				A02A61DD1A57871700CEBCD1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A02A61DD1A57871700CEBCD1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A02A61DC1A57871700CEBCD1 /* douban.app */,
+				A02A61F11A57871700CEBCD1 /* doubanTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A02A61DE1A57871700CEBCD1 /* douban */ = {
+			isa = PBXGroup;
+			children = (
+				A0EE94291A59844900ACE50F /* HttpController.swift */,
+				A019ED651A5957A600485084 /* ChannelController.swift */,
+				A02A61E11A57871700CEBCD1 /* AppDelegate.swift */,
+				A02A61E31A57871700CEBCD1 /* ViewController.swift */,
+				A02A61E51A57871700CEBCD1 /* Main.storyboard */,
+				A02A61E81A57871700CEBCD1 /* Images.xcassets */,
+				A02A61EA1A57871700CEBCD1 /* LaunchScreen.xib */,
+				A02A61DF1A57871700CEBCD1 /* Supporting Files */,
+			);
+			path = douban;
+			sourceTree = "<group>";
+		};
+		A02A61DF1A57871700CEBCD1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A068192B1A5ED06F000E0DE6 /* play3.png */,
+				A06819291A5ED035000E0DE6 /* play2.png */,
+				A06819251A5EBEDF000E0DE6 /* detail.png */,
+				A06819231A5EBCE8000E0DE6 /* channelicon.png */,
+				A042840E1A5D7A1C00D12226 /* channeicon.jpg */,
+				A0057BCC1A5AD3140038ACB5 /* channelButton.jpg */,
+				A0057BCD1A5AD3140038ACB5 /* detail.jpg */,
+				A0057BCE1A5AD3140038ACB5 /* iv.jpg */,
+				A019ED5F1A59567C00485084 /* douban3.png */,
+				A019ED601A59567C00485084 /* douban1.JPEG */,
+				A019ED611A59567C00485084 /* douban2.jpg */,
+				A02A61E01A57871700CEBCD1 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A02A61F41A57871700CEBCD1 /* doubanTests */ = {
+			isa = PBXGroup;
+			children = (
+				A02A61F71A57871700CEBCD1 /* doubanTests.swift */,
+				A02A61F51A57871700CEBCD1 /* Supporting Files */,
+			);
+			path = doubanTests;
+			sourceTree = "<group>";
+		};
+		A02A61F51A57871700CEBCD1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A02A61F61A57871700CEBCD1 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A02A61DB1A57871700CEBCD1 /* douban */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A02A61FB1A57871800CEBCD1 /* Build configuration list for PBXNativeTarget "douban" */;
+			buildPhases = (
+				A02A61D81A57871700CEBCD1 /* Sources */,
+				A02A61D91A57871700CEBCD1 /* Frameworks */,
+				A02A61DA1A57871700CEBCD1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = douban;
+			productName = douban;
+			productReference = A02A61DC1A57871700CEBCD1 /* douban.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A02A61F01A57871700CEBCD1 /* doubanTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A02A61FE1A57871800CEBCD1 /* Build configuration list for PBXNativeTarget "doubanTests" */;
+			buildPhases = (
+				A02A61ED1A57871700CEBCD1 /* Sources */,
+				A02A61EE1A57871700CEBCD1 /* Frameworks */,
+				A02A61EF1A57871700CEBCD1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A02A61F31A57871700CEBCD1 /* PBXTargetDependency */,
+			);
+			name = doubanTests;
+			productName = doubanTests;
+			productReference = A02A61F11A57871700CEBCD1 /* doubanTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A02A61D41A57871700CEBCD1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = Ian;
+				TargetAttributes = {
+					A02A61DB1A57871700CEBCD1 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					A02A61F01A57871700CEBCD1 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = A02A61DB1A57871700CEBCD1;
+					};
+				};
+			};
+			buildConfigurationList = A02A61D71A57871700CEBCD1 /* Build configuration list for PBXProject "douban" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A02A61D31A57871700CEBCD1;
+			productRefGroup = A02A61DD1A57871700CEBCD1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A02A61DB1A57871700CEBCD1 /* douban */,
+				A02A61F01A57871700CEBCD1 /* doubanTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A02A61DA1A57871700CEBCD1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A06819241A5EBCE8000E0DE6 /* channelicon.png in Resources */,
+				A019ED631A59567C00485084 /* douban1.JPEG in Resources */,
+				A02A61E71A57871700CEBCD1 /* Main.storyboard in Resources */,
+				A068192A1A5ED035000E0DE6 /* play2.png in Resources */,
+				A02A61EC1A57871700CEBCD1 /* LaunchScreen.xib in Resources */,
+				A068192C1A5ED06F000E0DE6 /* play3.png in Resources */,
+				A0057BD01A5AD3140038ACB5 /* detail.jpg in Resources */,
+				A019ED621A59567C00485084 /* douban3.png in Resources */,
+				A0057BD11A5AD3140038ACB5 /* iv.jpg in Resources */,
+				A0057BCF1A5AD3140038ACB5 /* channelButton.jpg in Resources */,
+				A06819261A5EBEDF000E0DE6 /* detail.png in Resources */,
+				A042840F1A5D7A1C00D12226 /* channeicon.jpg in Resources */,
+				A02A61E91A57871700CEBCD1 /* Images.xcassets in Resources */,
+				A019ED641A59567C00485084 /* douban2.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A02A61EF1A57871700CEBCD1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A02A61D81A57871700CEBCD1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A02A61E41A57871700CEBCD1 /* ViewController.swift in Sources */,
+				A02A61E21A57871700CEBCD1 /* AppDelegate.swift in Sources */,
+				A019ED661A5957A600485084 /* ChannelController.swift in Sources */,
+				A0EE942A1A59844900ACE50F /* HttpController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A02A61ED1A57871700CEBCD1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A02A61F81A57871800CEBCD1 /* doubanTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A02A61F31A57871700CEBCD1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A02A61DB1A57871700CEBCD1 /* douban */;
+			targetProxy = A02A61F21A57871700CEBCD1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A02A61E51A57871700CEBCD1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A02A61E61A57871700CEBCD1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A02A61EA1A57871700CEBCD1 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A02A61EB1A57871700CEBCD1 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A02A61F91A57871800CEBCD1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A02A61FA1A57871800CEBCD1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A02A61FC1A57871800CEBCD1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = douban/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		A02A61FD1A57871800CEBCD1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = douban/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		A02A61FF1A57871800CEBCD1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = doubanTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/douban.app/douban";
+			};
+			name = Debug;
+		};
+		A02A62001A57871800CEBCD1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = doubanTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/douban.app/douban";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A02A61D71A57871700CEBCD1 /* Build configuration list for PBXProject "douban" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A02A61F91A57871800CEBCD1 /* Debug */,
+				A02A61FA1A57871800CEBCD1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A02A61FB1A57871800CEBCD1 /* Build configuration list for PBXNativeTarget "douban" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A02A61FC1A57871800CEBCD1 /* Debug */,
+				A02A61FD1A57871800CEBCD1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A02A61FE1A57871800CEBCD1 /* Build configuration list for PBXNativeTarget "doubanTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A02A61FF1A57871800CEBCD1 /* Debug */,
+				A02A62001A57871800CEBCD1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A02A61D41A57871700CEBCD1 /* Project object */;
+}
